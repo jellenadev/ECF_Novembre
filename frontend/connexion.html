@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion</title>
+
+  <link rel="stylesheet" href="connexion.css">
+  <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+
+  <script src="connexion.js" defer></script>
+</head>
+<body>
+
+<header class="header-simple">
+  <img src="pixelverse studio.png" alt="Logo" class="logo-simple">
+</header>
+
+<div class="login-box">
+  <h2>Connexion</h2>
+
+  <form id="login-form">
+    
+    <div class="form-group">
+      <input type="text" id="pseudo" placeholder="Pseudo" required>
+      <div class="error"></div>
+    </div>
+
+    <div class="form-group">
+      <input type="password" id="password" placeholder="Mot de passe" required>
+      <div class="error"></div>
+    </div>
+
+    <button type="submit" class="button">Se connecter</button>
+
+  </form>
+
+  <p class="small-link">
+    Pas de compte ? <a href="compte.html">Créer un compte</a>
+  </p>
+</div>
+
+</body>
+</html>

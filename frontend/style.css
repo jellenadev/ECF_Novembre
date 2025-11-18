@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Freeman', sans-serif;
+  background: #1b2a23;
+  color: white;
+}
+
+header {
+  background: #3f6b46;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav a:last-child {
+  margin-left: auto;
+} 
+
+main {
+  display: flex;
+  padding: 80px;
+  gap: 40px;
+
+  width: 85%;
+  max-width: 1200px;     
+  margin: 0 auto;        
+}
+
+.left {
+  width: 50%;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.desc {
+  font-size: 24px;
+  line-height: 1.6;
+  max-width: 420px;
+}
+
+.right {
+  width: 50%;
+  background: #2f4238;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 350px;
+}
+
+.button {
+  background: #4d6f56;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: 'Freeman', sans-serif;
+}
+
+.big-button {
+    padding: 12px 24px;
+    background-color:#4d6f56;
+;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Freeman', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.big-button:hover {
+    background-color: #4d6f56;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 8px;
+}

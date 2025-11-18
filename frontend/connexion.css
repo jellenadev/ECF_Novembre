@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background: #1c2a21;
+  font-family: 'Freeman', sans-serif;
+  color: white;
+}
+
+.header-simple {
+  background: #3f6b46;
+  padding: 12px;
+  text-align: center;
+}
+
+.logo-simple {
+  height: 50px;
+}
+
+.login-box {
+  width: 400px;
+  background: #3b463b;
+  margin: 100px auto;
+  padding: 40px 30px;
+  border-radius: 26px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+input {
+  padding: 14px;
+  background: #7c857c;
+  border: none;
+  border-radius: 18px;
+  color: white;
+  font-size: 15px;
+}
+
+input::placeholder {
+  color: #e2e2e2;
+}
+
+.button {
+  background: #4e725c;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 18px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 12px;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background: #5f876d;
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.small-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.small-link a {
+  color: #d1e7d1;
+  text-decoration: none;
+}
